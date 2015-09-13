@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.8" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="server.LobbyServer" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/LobbyServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="137" x="2634" y="909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="gateWay.GateWay" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/gateWay/GateWay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="272" x="976" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="server.DB.DBConnectionPoolManager" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/DB/DBConnectionPoolManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="277" x="2458" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="server.AbstractServer" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/AbstractServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="266" x="2152" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="server.GameServer" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/GameServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="137" x="2811" y="909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Util.PacketHandler" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/Util/PacketHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="156" x="1288" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="server.Game.GameThread" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/Game/GameThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="349" x="1505" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="server.DB.DBConnectionPool" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/DB/DBConnectionPool.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="315" width="285" x="2458" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="redis.DBConnectionPoolManager" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/redis/DBConnectionPoolManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="277" x="2785" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="server.AbstractServer.ChatThread" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/AbstractServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="266" x="1894" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="server.Game.GameRoom" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/Game/GameRoom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="981" width="368" x="2205" y="909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="server.AbstractServer.ServerThread" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/AbstractServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="155" x="2200" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="gateWay.GateWay.GameServerInfo" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/gateWay/GateWay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="203" x="779" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="server.Lobby.LobbyThread" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/Lobby/LobbyThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="515" x="1566" y="909"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="server.ManualResetEvent" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/ManualResetEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="161" x="1505" y="1930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="server.User" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="459" width="368" x="1736" y="1930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="gateWay.GateWay.LobbyServerInfo" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/gateWay/GateWay.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="205" x="1022" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="relay.RelayServer" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/relay/RelayServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="231" x="1288" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="server.DB.DBUserClient" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/DB/DBUserClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="237" x="1736" y="2429"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="server.Game.GameRoomManager" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/Game/GameRoomManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="412" x="2783" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="server.Redis.RedisUserClient" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/Redis/RedisUserClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="244" x="410" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="server.Redis.RedisGameRoomClient" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/server/Redis/RedisGameRoomClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="242" x="694" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="redis.GameThread" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/redis/GameThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="349" x="3245" y="554"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="Util.Packet" project="DevU-Peoples" 
+    file="/DevU-Peoples/src/main/java/Util/Packet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="199" x="2144" y="1930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="25">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </nesting>  
+  <association id="26">    
+    <bendpoint x="2603" y="909"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="27" name="userList"/>      
+      <multiplicity id="28" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="30" name="chatReceiveQueue"/>      
+      <multiplicity id="31" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="32">    
+    <bendpoint x="1535" y="909"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="33" name="userList"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="36" name="chatSendQueue"/>      
+      <multiplicity id="37" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="38">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="39" name="instance"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="42" name="eventHandler"/>      
+      <multiplicity id="43" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="45" name="roomMapper"/>      
+      <multiplicity id="46" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="47">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="48" name="lobbyQueue"/>      
+      <multiplicity id="49" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="50">    
+    <bendpoint x="1257" y="554"/>    
+    <bendpoint x="1493" y="909"/>    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="51" name="relayChatQueue"/>      
+      <multiplicity id="52" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="54" name="handler"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <bendpoint x="2153" y="909"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="57" name="packetReceiveQueue"/>      
+      <multiplicity id="58" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="60" name="chatQueue"/>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="63" name="rooms"/>      
+      <multiplicity id="64" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="65">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="66" name="handler"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <bendpoint x="2978" y="909"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="69" name="packetReceiveQueue"/>      
+      <multiplicity id="70" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="72" name="packetReceiveQueue"/>      
+      <multiplicity id="73" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <bendpoint x="2132" y="909"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="75" name="packetSendQueue"/>      
+      <multiplicity id="76" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="77">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="78" name="packetSendQueue"/>      
+      <multiplicity id="79" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="80">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="81" name="pools"/>      
+      <multiplicity id="82" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="83">    
+    <bendpoint x="2406" y="554"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <nesting id="84">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </nesting>  
+  <generalization id="85">    
+    <bendpoint x="2427" y="554"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="86">    
+    <bendpoint x="2111" y="909"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="87" name="chatQueue"/>      
+      <multiplicity id="88" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="90" name="chatQueue"/>      
+      <multiplicity id="91" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="92">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="93" name="userList"/>      
+      <multiplicity id="94" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="95">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="96" name="lobbyQueue"/>      
+      <multiplicity id="97" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="98">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="99" name="instance"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="101">    
+    <bendpoint x="1474" y="554"/>    
+    <bendpoint x="1472" y="909"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="102" name="eventHandler"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="104">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="105" name="instance"/>      
+      <multiplicity id="106" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="107">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="108" name="roomMapper"/>      
+      <multiplicity id="109" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="111" name="dbUserClient"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <bendpoint x="2174" y="909"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="114" name="eventHandler"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="117" name="users"/>      
+      <multiplicity id="118" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="119">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </nesting>  
+  <association id="120">    
+    <bendpoint x="2999" y="909"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="121" name="packetSendQueue"/>      
+      <multiplicity id="122" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="124" name="queue"/>      
+      <multiplicity id="125" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="126">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="127" name="gameQueue"/>      
+      <multiplicity id="128" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="129">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="130" name="pools"/>      
+      <multiplicity id="131" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="132">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="133" name="handler"/>      
+      <multiplicity id="134" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="135">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="136" name="lobbyList"/>      
+      <multiplicity id="137" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="139" name="gameThread"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="141">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <association id="142">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="143" name="gameList"/>      
+      <multiplicity id="144" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="145">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="146" name="chatQueue"/>      
+      <multiplicity id="147" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="148">    
+    <bendpoint x="2385" y="554"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="149" name="lobbyThread"/>      
+      <multiplicity id="150" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="151">    
+    <bendpoint x="1514" y="909"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="152" name="eventHandler"/>      
+      <multiplicity id="153" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="154">    
+    <bendpoint x="3020" y="909"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="155" name="chatQueue"/>      
+      <multiplicity id="156" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,21 @@
+drop table Users;
+drop table Friends;
+
+
+drop table Users;
+create table Users (
+	User_num int auto_increment primary key,
+	Id varchar(20) not null,
+	NickName varchar(10) not null,
+	Gender varchar(1) not null,
+	Password varchar(256) not null
+);
+
+
+drop table Friends;
+create table Friends (
+	User_num int primary key,
+	FriendList TEXT,
+	foreign key(User_num) references Users(User_num)
+	on delete cascade on update restrict
+);
