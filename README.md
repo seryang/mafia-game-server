@@ -14,6 +14,6 @@ Mafia Game
 
 - Choe seryang, Park joongun, Lee jihee, Kim chanyoung
 
-> Portpolio
+> Portfolio
 
 - http://bit.ly/1Qae9mg
