@@ -8,7 +8,7 @@ Mafia Game
 
 > Use skill
 
-- JAVA (NIO- Non blocking IO), C#, MySQL, Redis, Jedis, JSON/GSON, Maven, Git
+- JAVA NIO(Non-blocking IO), C#, MySQL, Redis, Jedis, JSON/GSON, Maven, Git
 
 > Project Member
 
