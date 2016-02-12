@@ -12,7 +12,7 @@ Mafia Game
 
 > Project Member
 
-- Choe Seryang, Park Joongun, Eom Jihee, Kim Chanyoung
+- Choe Seryang, Park Junghun, Eom Jihee, Kim Chanyoung
 
 > Portfolio
 
