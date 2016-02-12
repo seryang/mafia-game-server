@@ -1,6 +1,6 @@
 Mafia Game
 
-> Smilegate corp. 'Server Develop CAMP 2015' Intern Project
+- Smilegate corp. 'Server Develop CAMP 2015' Intern Project
 
 > Account for Project
 
