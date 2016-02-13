@@ -2,11 +2,11 @@ Mafia Game
 
 - Smilegate corp. 'Server Develop CAMP 2015' Intern Project
 
-> Account for Project
+> Introduction
 
-- Distributed processing Game Server.
+- Distributed Game Server that can handle huge traffic.
 
-> Use skill
+> Used skill
 
 - JAVA NIO(Non-blocking IO), C#, MySQL, Redis, Jedis, JSON/GSON, Maven, Git
 
