@@ -1,7 +1,7 @@
 package server;
 
 
-//import static gateWay.GateWay.LB_SERVER_IP;
+import static gateWay.GateWay.LB_SERVER_IP;
 import static gateWay.GateWay.LB_SERVER_PORT;
 
 import java.io.IOException;
@@ -44,7 +44,7 @@ public class GameServer extends AbstractServer {
 	public void connectLB() throws IOException {
 		Selector gameSelector = Selector.open();
 
-		server_LBserver_SocketChannel = SocketChannel.open(new InetSocketAddress("192.168.0.118", LB_SERVER_PORT));
+		server_LBserver_SocketChannel = SocketChannel.open(new InetSocketAddress(LB_SERVER_IP, LB_SERVER_PORT));
 		server_LBserver_SocketChannel.configureBlocking(false);
 		server_LBserver_SocketChannel.register(gameSelector, SelectionKey.OP_WRITE | SelectionKey.OP_READ);
 

@@ -18,7 +18,7 @@ import net.sf.json.JSONObject;
 
 public class GateWay {
 
-	public static final String LB_SERVER_IP = "192.168.0.118";
+	public static final String LB_SERVER_IP = "localhost";
 
 	public static final int LB_SERVER_PORT = 7777;
 	public static final int LB_SERVER_PORT_FOR_RELAY = 5555;

@@ -115,9 +115,7 @@ public class RelayServer {
 				lobbySocketChannel.register(selector, SelectionKey.OP_READ);
 				addLobby(serverNum, lobbySocketChannel);
 				System.out.println("로비서버 번호 : " + serverNum + " 번");
-			}
-
-			else if (serverType.equals("GAME")) { // 게임 서버 등록인 경우
+			} else if (serverType.equals("GAME")) { // 게임 서버 등록인 경우
 				gameSocketChannel = SocketChannel.open(new InetSocketAddress(serverIp, serverPort));
 				gameSocketChannel.configureBlocking(false);
 				gameSocketChannel.register(selector, SelectionKey.OP_READ);
